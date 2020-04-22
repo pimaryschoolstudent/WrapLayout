@@ -28,6 +28,15 @@ app——>build.gradle
 导入成功后像一般的布局使用即可
 可以参考项目中的MainActivity
 
+动态添加组件
+```
+var tv = TextView(this)
+tv.text = "新添加的TextView"
+tv.setBackgroundColor( Color.WHITE)
+var lp = ViewGroup.MarginLayoutParams(ViewGroup.MarginLayoutParams.WRAP_CONTENT,ViewGroup.MarginLayoutParams.WRAP_CONTENT)
+wrapLayout.addView(tv,lp)
+```
+
 ```
 <!--gravity 设置重心-->
 <primary.student.wraplayout.WrapLayout
