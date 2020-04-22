@@ -1,7 +1,7 @@
 # WrapLayout
 一款轻轻轻轻量级的自动换行布局，可以设置Gravity
 
-##懒人使用方法
+## 懒人使用方法
 
 ```
 项目目录——>build.gradle
@@ -51,7 +51,7 @@ app——>build.gradle
 </primary.student.wraplayout.WrapLayout>
 ```
 
-##扩展用法
+## 扩展用法
 复制WrapLayout.java到你的项目中
 在res/values/attrs.xml
 ```
