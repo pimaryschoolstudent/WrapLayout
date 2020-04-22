@@ -1,0 +1,3 @@
+rootProject.name='WrapLayoutDemo'
+include ':app'
+include ':wraplayout'

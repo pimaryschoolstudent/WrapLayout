@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WrapLayout">
+        <attr name="gravity">
+            <enum name="center" value="1001"/>
+            <enum name="left" value="1002"/>
+            <enum name="right" value="1003"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
